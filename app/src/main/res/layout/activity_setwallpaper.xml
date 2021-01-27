@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".UI.SetwallpaperActivity">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_500"
+        app:title="Set Wallpaper"
+        app:titleTextColor="@color/black"
+        android:id="@+id/setwallpaper_toolbar"
+        app:navigationIcon="@drawable/ic_baseline_arrow_back_ios_24"
+        >
+    </com.google.android.material.appbar.MaterialToolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/setwallpaper_toolbar"
+        >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fullimg_imageview"
+        android:src="@drawable/app_logo"
+        >
+    </ImageView>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Set Wallpaper"
+                android:backgroundTint="@color/purple_500"
+                android:textColor="@color/purple_200"
+                android:id="@+id/btn_setwallpaper"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                >
+            </Button>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
