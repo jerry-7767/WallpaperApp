@@ -2,8 +2,6 @@
 Wallpaper app using API
 #### hey there,
 #### I'm Rishi Android Developer
-# Demo
-
 # ScreenShots
 <img src="https://user-images.githubusercontent.com/42550296/106014295-5c75d180-60e3-11eb-8919-a5ff4d12ceed.png" width="380" height="700">
 <img src="https://user-images.githubusercontent.com/42550296/106014383-71eafb80-60e3-11eb-86f4-c684de92c300.png" width="380" height="700">
